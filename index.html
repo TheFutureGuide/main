@@ -79,7 +79,7 @@
       const password = document.getElementById("password").value;
 
       try {
-        const res = await fetch("https://github.com/TheFutureGuide/futureguide-backend.git/login", {
+        const res = await fetch("https://futureguide-backend-wpc1.onrender.com/login", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ email, password })
@@ -105,3 +105,4 @@
   </script>
 </body>
 </html>
+
